@@ -2,7 +2,15 @@
 import Ticker from "framer-motion-ticker";
 import { useState } from "react";
 import Link from "next/link";
-export function WebsitesListTicker({ items }: { items: any }) {
+export function WebsitesListTicker({
+  items,
+}: {
+  items: {
+    image: string;
+    text: string;
+    url: string;
+  }[];
+}) {
   const [isPlaying, setIsPlaying] = useState(true);
   return (
     <div>
