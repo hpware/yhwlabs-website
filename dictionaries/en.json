@@ -1,9 +1,11 @@
 {
   "htmllang": "en",
   "home": {
+    "title": "yhwLabs",
     "hi": "Hi!",
     "work": "This is the yhwlabs' home page.",
-    "learnmoreaboutourwork": "Scroll down to learn more what I do here 😏"
+    "learnmoreaboutourwork": "Scroll down to learn more what I do here 😏",
+    "websitesthatimade": "Websites that I made"
   },
   "nav": {
     "home": "Home"

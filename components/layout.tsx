@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { MenuIcon } from "lucide-react";
 import Link from "next/link";
+import Footer from "./footer";
 export default function Layout({
   children,
   dict,
@@ -23,7 +24,7 @@ export default function Layout({
     <div>
       {/** Navbar */}
       <div
-        className={`min-h-12 fixed z-50 inset-x-0 mx-4 border border-gray-300/30 shadow backdrop-blur-lg flex flex-row justify-between text-center transition-all duration-300 ${scrolled ? "mt-5 rounded-4xl" : "mt-2 rounded-xl"}`}
+        className={`min-h-12 fixed z-50 inset-x-0 border border-gray-300/30 shadow backdrop-blur-lg flex flex-row justify-between text-center transition-all duration-300 ${scrolled ? "mt-5 rounded-4xl mx-7" : "mt-2 rounded-xl mx-4"}`}
       >
         <div className="p-2 mx-2">
           <div className="flex flex-row items-center justify-center text-center">
@@ -42,6 +43,7 @@ export default function Layout({
         </div>
       </div>
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }
