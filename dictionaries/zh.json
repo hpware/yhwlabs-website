@@ -2,7 +2,10 @@
   "htmllang": "zh-TW",
   "home": {
     "hi": "嗨!",
-    "work": "這裡是 Labs 的主頁",
-    "learnmoreaboutourwork": "想知道我們在做什麽？往下滑你就知道嚕 😏"
+    "work": "這裡是 yhwLabs 的主頁",
+    "learnmoreaboutourwork": "想知道我在做什麽？往下滑你就知道嚕 😏"
+  },
+  "nav": {
+    "home": "首頁"
   }
 }

@@ -2,7 +2,10 @@
   "htmllang": "en",
   "home": {
     "hi": "Hi!",
-    "work": "This is the labs' home page.",
-    "learnmoreaboutourwork": "What do we do? Scroll down to learn more 😏"
+    "work": "This is the yhwlabs' home page.",
+    "learnmoreaboutourwork": "Scroll down to learn more what I do here 😏"
+  },
+  "nav": {
+    "home": "Home"
   }
 }

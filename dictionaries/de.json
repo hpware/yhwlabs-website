@@ -5,5 +5,8 @@
     "hi": "Hallo!",
     "work": "Dies ist die Startseite der Labs.",
     "learnmoreaboutourwork": "Was machen wir? Scrollen Sie nach unten, um mehr zu erfahren 😏"
+  },
+  "nav": {
+    "home": "Home"
   }
 }
