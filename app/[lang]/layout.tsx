@@ -29,7 +29,7 @@ export default async function RootLayout({
   return (
     <html lang={dict.htmllang}>
       <head>
-        <meta name="og:authorr:email" content="ceo-vp@yhw.tw" />
+        <meta name="og:author:email" content="ceo-vp@yhw.tw" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       </head>
       <body
