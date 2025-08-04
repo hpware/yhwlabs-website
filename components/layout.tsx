@@ -34,7 +34,7 @@ export default function Layout({
         <div className="p-2 mx-2 flex-row items-center justify-center text-center hidden md:flex gap-2">
           <Link
             href="/"
-            className="border-2 border-teal-400 p-2 group rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg"
+            className="border-2 border-teal-400 hover:bg-teal-400/50 p-2 group rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg transition-all duration-200"
           >
             <div className="ml-2 mr-2 flex flex-row gap-1">
               <HouseIcon />
@@ -43,15 +43,15 @@ export default function Layout({
           </Link>
           <Link
             href="/portal"
-            className="border-2 border-teal-400 p-2 group rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg"
+            className="border-2 border-teal-400 hover:bg-teal-400/50 p-2 group rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg transition-all duration-200"
           >
             <div className="ml-2 mr-2 flex flex-row gap-1">
               <DoorOpenIcon />
               <span>Portal</span>
             </div>
           </Link>
-          <div className="border-2 border-blue-400 py-2 px-3 group rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg">
-            <select className="bg-black border-0 border-black">
+          <div className="border-2 border-blue-400 hover:bg-blue-400/50 py-2 px-3 group rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg transition-all duration-200">
+            <select className="bg-black group-hover:bg-blue-400/50 border-0 border-black transition-all duration-200">
               <option>en</option>
               <option>zh</option>
               <option>de</option>
